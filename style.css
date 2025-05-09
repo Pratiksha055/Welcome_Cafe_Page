@@ -1,0 +1,42 @@
+
+body {
+    background-color: #fff8f0;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+/* ID selector */
+#welcome {
+    color: #6F4E37;
+    text-align: center;
+}
+
+/* Universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Descendant combinator */
+div ul li {
+color: #4B3832;
+  }
+
+/* Child combinator */
+p > span {
+font-weight: bold;
+}
+
+/* Adjacent sibling combinator */
+h2 + p {
+color: hsl(34, 70%, 45%);
+}
+
+/* General sibling combinator */
+.hours p ~ p {
+font-size: 0.95em;
+color: rgba(100, 100, 100, 0.8);  
+}
+
+button {
+    background-color: rgba(111, 78, 55, 0.7);
+    color: white;
+}
